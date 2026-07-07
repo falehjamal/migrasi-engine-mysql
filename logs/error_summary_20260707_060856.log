@@ -1,0 +1,26 @@
+===== ERROR SUMMARY =====
+Tanggal       : Tue Jul  7 08:31:09 AM WIB 2026
+Database      : simrs_new
+Backup file   : /home/backupmanager/backup_05072026_235001.sql.gz
+MySQL exit    : 0
+
+===== TOTAL ERROR =====
+0
+
+===== TOTAL WARNING =====
+0
+
+===== ERROR BERDASARKAN NOMOR ERROR MYSQL =====
+
+===== ERROR DETAIL =====
+
+===== WARNING DETAIL =====
+
+===== KEMUNGKINAN MASALAH TABLE =====
+
+===== KEMUNGKINAN MASALAH COLUMN =====
+
+===== KEMUNGKINAN MASALAH COLLATION / CHARSET =====
+
+===== KEMUNGKINAN MASALAH SYNTAX =====
+

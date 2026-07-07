@@ -1,0 +1,56 @@
+[2026-07-07 06:08:56] ==========================================
+[2026-07-07 06:08:56] IMPORT MYSQL 5 DUMP TO MYSQL 8
+[2026-07-07 06:08:56] Database      : simrs_new
+[2026-07-07 06:08:56] Backup file   : /home/backupmanager/backup_05072026_235001.sql.gz
+[2026-07-07 06:08:56] Workdir       : /home/backupmanager/import_mysql8
+[2026-07-07 06:08:56] Main log      : /home/backupmanager/import_mysql8/logs/main_20260707_060856.log
+[2026-07-07 06:08:56] MySQL stdout  : /home/backupmanager/import_mysql8/logs/mysql_stdout_20260707_060856.log
+[2026-07-07 06:08:56] MySQL error   : /home/backupmanager/import_mysql8/logs/mysql_error_20260707_060856.log
+[2026-07-07 06:08:56] ==========================================
+[2026-07-07 06:08:56] Cek file backup:
+-rw-r--r-- 1 backupmanager backupmanager 4.6G Jul  7 05:59 /home/backupmanager/backup_05072026_235001.sql.gz
+[2026-07-07 06:08:56] Cek koneksi MySQL...
+mysqld is alive
+[2026-07-07 06:08:57] Cek database tujuan...
+simrs_new
+[2026-07-07 06:08:57] Cek kapasitas disk...
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              795M  1.3M  793M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   97G   19G   74G  21% /
+tmpfs                              3.9G     0  3.9G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G  104M  1.7G   6% /boot
+tmpfs                              795M   16K  795M   1% /run/user/1000
+[2026-07-07 06:08:57] Mulai import.
+[2026-07-07 06:08:57] Mode:
+[2026-07-07 06:08:57] - gzip stream
+[2026-07-07 06:08:57] - convert ENGINE=MyISAM menjadi ENGINE=InnoDB
+[2026-07-07 06:08:57] - convert TYPE=MyISAM menjadi ENGINE=InnoDB
+[2026-07-07 06:08:57] - --force aktif, error SQL tidak menghentikan import
+[2026-07-07 06:08:57] - foreign_key_checks=0 dan unique_checks=0 hanya untuk sesi import
+[2026-07-07 08:31:09] Import stream selesai.
+[2026-07-07 08:31:09] Exit code MySQL: 0
+[2026-07-07 08:31:09] Durasi detik: 8532
+[2026-07-07 08:31:09] Pisahkan ERROR dan WARNING...
+[2026-07-07 08:31:09] Buat ringkasan error...
+[2026-07-07 08:31:09] Cek engine tabel...
+ENGINE	total
+InnoDB	547
+[2026-07-07 08:31:09] Cek tabel yang masih bukan InnoDB...
+[2026-07-07 08:31:09] Cek total tabel dan ukuran database...
+total_tables
+547
+database_name	size_gb
+simrs_new	59.04
+[2026-07-07 08:31:09] ==========================================
+[2026-07-07 08:31:09] IMPORT SELESAI
+[2026-07-07 08:31:09] Main log             : /home/backupmanager/import_mysql8/logs/main_20260707_060856.log
+[2026-07-07 08:31:09] MySQL stdout log     : /home/backupmanager/import_mysql8/logs/mysql_stdout_20260707_060856.log
+[2026-07-07 08:31:09] MySQL error log      : /home/backupmanager/import_mysql8/logs/mysql_error_20260707_060856.log
+[2026-07-07 08:31:09] Error only log       : /home/backupmanager/import_mysql8/logs/import_error_only_20260707_060856.log
+[2026-07-07 08:31:09] Warning only log     : /home/backupmanager/import_mysql8/logs/import_warning_only_20260707_060856.log
+[2026-07-07 08:31:09] Error summary log    : /home/backupmanager/import_mysql8/logs/error_summary_20260707_060856.log
+[2026-07-07 08:31:09] Non InnoDB log       : /home/backupmanager/import_mysql8/logs/non_innodb_20260707_060856.log
+[2026-07-07 08:31:09] Engine summary log   : /home/backupmanager/import_mysql8/logs/engine_summary_20260707_060856.log
+[2026-07-07 08:31:09] ==========================================
+[2026-07-07 08:31:09] Import selesai dengan exit code 0.
